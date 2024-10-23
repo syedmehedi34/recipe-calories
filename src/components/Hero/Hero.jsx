@@ -1,4 +1,5 @@
 import { scrollToSection } from "./../utilities/scrollToSection";
+import { handleButtonAction } from "./Button";
 const Hero = () => {
   //
 
@@ -18,12 +19,20 @@ const Hero = () => {
           </p>
           <div className="space-x-5">
             <button
-              onClick={scrollToSection}
-              className="btn bg-primary rounded-[50px] border-none text-title"
+              onClick={() => {
+                scrollToSection();
+                handleButtonAction(event);
+              }}
+              className="btn hero-btn bg-transparent rounded-[50px] border text-white"
             >
               Get Started
             </button>
-            <button className="btn bg-primary rounded-[50px] border-none text-title">
+            <button
+              onClick={() => {
+                handleButtonAction(event);
+              }}
+              className="btn hero-btn bg-transparent rounded-[50px] border text-white"
+            >
               Our Feedback
             </button>
           </div>
