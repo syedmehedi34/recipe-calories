@@ -12,6 +12,7 @@ const WantCook = ({ item, handleCurrentCooking }) => {
     calories,
     recipe_image,
   } = item;
+
   return (
     <section className="grid gap-y-4 grid-cols-[repeat(21,1fr)] px-6 bg-[#28282808] py-3">
       <div className="w-full h-full text-[#282828CC] font-semibold flex items-center">

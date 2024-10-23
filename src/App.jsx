@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react-hooks/rules-of-hooks */
 import { useEffect, useState } from "react";
 import "./App.css";
 import CookContainer from "./components/CookContainer/CookContainer";
@@ -23,7 +21,11 @@ function App() {
   // Cook button click data [ start ]
   const [cook, setCook] = useState([]);
   const handleCookData = (item) => {
-    setCook([...cook, item]);
+    if (cook.includes(item)) {
+      alert("Already added");
+    } else {
+      setCook([...cook, item]);
+    }
   };
   // Cook button click data [ start ]
 
