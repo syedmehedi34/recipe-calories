@@ -18,7 +18,7 @@ export default {
 
       backgroundImage: {
         gradient:
-          "linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url('public/hero.png')",
+          "linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url('hero.png')",
       },
     },
   },
