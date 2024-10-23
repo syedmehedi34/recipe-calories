@@ -35,7 +35,7 @@ function App() {
         <Navbar></Navbar>
         <Hero></Hero>
       </header>
-      <main className="w-11/12 mx-auto">
+      <main id="target-section" className="w-11/12 mx-auto">
         <OurRecipes></OurRecipes>
 
         {/* main section  */}

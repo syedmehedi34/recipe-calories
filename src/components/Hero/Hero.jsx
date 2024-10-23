@@ -1,4 +1,8 @@
+import { scrollToSection } from "./../utilities/scrollToSection";
 const Hero = () => {
+  //
+
+  //
   return (
     <div className="hero h-[600px] mt-5  rounded-[24px] bg-gradient">
       <div className="hero-overlay bg-opacity-60 border rounded-[24px]"></div>
@@ -13,7 +17,10 @@ const Hero = () => {
             well world-class Programmer.
           </p>
           <div className="space-x-5">
-            <button className="btn bg-primary rounded-[50px] border-none text-title">
+            <button
+              onClick={scrollToSection}
+              className="btn bg-primary rounded-[50px] border-none text-title"
+            >
               Get Started
             </button>
             <button className="btn bg-primary rounded-[50px] border-none text-title">
