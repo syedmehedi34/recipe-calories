@@ -5,7 +5,7 @@ const Hero = () => {
 
   //
   return (
-    <div className="hero h-[600px] mt-5  rounded-[24px] bg-gradient">
+    <div className="hero h-[600px] mt-5  rounded-[24px] bg-gradient ">
       <div className="hero-overlay bg-opacity-60 border rounded-[24px]"></div>
       <div className="hero-content text-neutral-content text-center rounded-[24px]">
         <div className="w-4/5">
