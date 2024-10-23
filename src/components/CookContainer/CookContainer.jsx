@@ -52,6 +52,7 @@ const CookContainer = ({ cook }) => {
             key={i}
             item={item}
             handleCurrentCooking={handleCurrentCooking}
+            index={i + 1}
           />
         ))
       ) : (
@@ -94,7 +95,7 @@ const CookContainer = ({ cook }) => {
       {/*CurrentCook section  */}
       {cooking.length > 0 ? (
         cooking.map((item, i) => (
-          <CurrentCook key={i} item={item}></CurrentCook>
+          <CurrentCook key={i} item={item} index={i + 1}></CurrentCook>
         ))
       ) : (
         <div className="flex flex-col items-center justify-center my-5">

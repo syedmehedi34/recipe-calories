@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
-const WantCook = ({ item, handleCurrentCooking }) => {
+const WantCook = ({ item, handleCurrentCooking, index }) => {
   //   console.log(item);
 
   const {
@@ -16,7 +16,7 @@ const WantCook = ({ item, handleCurrentCooking }) => {
   return (
     <section className="grid gap-y-4 grid-cols-[repeat(21,1fr)] px-6 bg-[#28282808] py-3">
       <div className="w-full h-full text-[#282828CC] font-semibold flex items-center">
-        1
+        {index}
       </div>
       <div className="w-full h-full col-span-5 text-c70 text-sm flex items-center">
         {recipe_name}

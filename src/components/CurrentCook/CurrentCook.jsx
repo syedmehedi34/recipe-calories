@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
-const CurrentCook = ({ item }) => {
+const CurrentCook = ({ item, index }) => {
   const {
     recipe_name,
     short_description,
@@ -15,7 +15,7 @@ const CurrentCook = ({ item }) => {
     <div>
       <section className="grid grid-cols-10 px-6 bg-[#28282808] py-5">
         <div className="w-full h-full flex item-center text-[#282828CC] font-semibold">
-          1
+          {index}
         </div>
         <div className="w-full h-full flex item-center col-span-3 text-c70 text-sm">
           {recipe_name}
