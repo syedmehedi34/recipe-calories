@@ -1,0 +1,97 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Margherita Pizza",
+    "short_description": "Classic Italian pizza with a simple yet delicious combination of tomato, mozzarella, and basil.",
+    "ingredients": [
+      "500 g pizza dough",
+      "200 g tomato sauce",
+      "150 g mozzarella cheese",
+      "20 g fresh basil leaves",
+      "10 ml olive oil"
+    ],
+    "preparing_time": 30,
+    "calories": 400,
+    "recipe_image": "https://i.ibb.co/5cGfKkH/pizza.jpg"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Cheeseburger",
+    "short_description": "A juicy burger with melted cheddar cheese, lettuce, tomato, and a special sauce.",
+    "ingredients": [
+      "200 g ground beef patty",
+      "50 g cheddar cheese",
+      "1 burger bun",
+      "30 g lettuce",
+      "20 g tomato",
+      "10 ml burger sauce"
+    ],
+    "preparing_time": 15,
+    "calories": 550,
+    "recipe_image": "https://i.ibb.co/vsRYLbj/burger.jpg"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Creamy Alfredo Pasta",
+    "short_description": "Rich and creamy Alfredo pasta with a hint of garlic and parmesan cheese.",
+    "ingredients": [
+      "300 g fettuccine pasta",
+      "200 ml heavy cream",
+      "100 g parmesan cheese",
+      "30 g butter",
+      "10 g garlic",
+      "10 g black pepper"
+    ],
+    "preparing_time": 25,
+    "calories": 600,
+    "recipe_image": "https://i.ibb.co/wgVFpT7/pasta.jpg"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Sushi Platter",
+    "short_description": "An assortment of fresh sushi rolls with salmon, tuna, and avocado.",
+    "ingredients": [
+      "200 g sushi rice",
+      "100 g salmon",
+      "100 g tuna",
+      "1 avocado",
+      "30 ml soy sauce",
+      "10 g wasabi"
+    ],
+    "preparing_time": 45,
+    "calories": 350,
+    "recipe_image": "https://i.ibb.co/2YHjnfT/sushi.jpg"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Greek Salad",
+    "short_description": "A refreshing salad with cucumbers, tomatoes, olives, and feta cheese.",
+    "ingredients": [
+      "200 g cucumbers",
+      "150 g cherry tomatoes",
+      "100 g feta cheese",
+      "50 g kalamata olives",
+      "30 ml olive oil",
+      "10 g oregano"
+    ],
+    "preparing_time": 10,
+    "calories": 220,
+    "recipe_image": "https://i.ibb.co/pnSXvXN/salad.jpg"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Mousse Dessert",
+    "short_description": "Decadent chocolate mousse topped with whipped cream and chocolate shavings.",
+    "ingredients": [
+      "200 g dark chocolate",
+      "150 ml heavy cream",
+      "50 g sugar",
+      "2 eggs",
+      "10 g cocoa powder",
+      "10 g chocolate shavings"
+    ],
+    "preparing_time": 40,
+    "calories": 450,
+    "recipe_image": "https://i.ibb.co/rdvzd3B/desert.jpg"
+  }
+]
