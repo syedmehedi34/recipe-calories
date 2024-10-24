@@ -2,6 +2,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
   theme: {
     extend: {
       colors: {
@@ -18,7 +19,7 @@ export default {
 
       backgroundImage: {
         gradient:
-          "linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url('hero.png')",
+          "linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url('/hero.png')",
       },
     },
   },
